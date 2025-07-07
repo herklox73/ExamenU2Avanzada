@@ -1,0 +1,30 @@
+/* Importación de Bootstrap */
+/* Comentar la línea de import y usar angular.json para importar */
+/* @import 'bootstrap/dist/css/bootstrap.min.css'; */
+
+body {
+  background-color: #f4f6f9;
+  font-family: 'Arial', sans-serif;
+}
+
+.card-custom {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.card-custom:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
